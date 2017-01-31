@@ -1,12 +1,11 @@
 # Joyjet tech interview
 
-Come and help us build game changing apps and platforms for international clients
+This is a test to analyze knowledge in application development, using native components and external libraries.
 
 ## Guidelines
 
 - [duplicate](https://help.github.com/articles/duplicating-a-repository/) this repository (do **not** fork it)
-- solve the levels in ascending order
-- commit at the very least at the end of each level
+- Resolve your test (Android or iOS)
 
 ## What we expect
 
@@ -15,6 +14,7 @@ Come and help us build game changing apps and platforms for international client
 - comments when you need to clarify a design decision or assumptions about the spec
 - a simple way to run the code and the tests
 
-## Acknowledgements
+## Differentials
 
-This test is shamelessly inspired by the drivy tech interview, which a client found really great and which we then copied too :)
+- animations
+- keep the original layout
