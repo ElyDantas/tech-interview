@@ -1,11 +1,13 @@
-# Joyjet tech interview
+# Joyjet Tech Interview
 
-Come and help us build game changing apps and platforms for international clients
+Thank you for coming to our tech-interview test page. Come and help us build game changing apps and platforms for international clients! Joyjet was created 16 years ago in Paris and is now looking to grow it's team with highly skilled individuals!
 
 ## Guidelines
 
 - [duplicate](https://help.github.com/articles/duplicating-a-repository/) this repository (do **not** fork it)
-- solve the levels in ascending order
+- if you are responding to a backend position, please solve the levels inside backend in ascending order
+- otherwise, you can use the appropriate folders for iOS, Android or front end
+- feel free to complete tests for other platforms for extra brownie points!
 - commit at the very least at the end of each level
 
 ## What we expect
@@ -17,4 +19,4 @@ Come and help us build game changing apps and platforms for international client
 
 ## Acknowledgements
 
-This test is shamelessly inspired by the drivy tech interview, which a client found really great and which we then copied too :)
+The android, iOS and frontend tests were completely designed by us, while the backend tests were shamesly ~~inspired~~ copied from the tests at one of our clients interview process, which our client had already found to be really great at another client. :)
