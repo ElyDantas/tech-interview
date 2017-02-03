@@ -27,4 +27,4 @@ As you can see in file "App Diagram.png", the test consists of developing a prot
 
 - animations
 - keep the original layout
-- tests
+- tests unit
