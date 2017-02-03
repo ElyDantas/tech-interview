@@ -9,7 +9,7 @@ As you can see in file "App Diagram.png", the test consists of developing a prot
 - [duplicate](https://help.github.com/articles/duplicating-a-repository/) this repository (do **not** fork it)
 - Resolve your test (Android or iOS)
 - [JSON](https://cdn.joyjet.com/tech-interview/mobile-test-one.json) to load by request
-- Layout is using Sketch
+- Layout is in Sketch and PDF
 
 ## Features:
 - Menu
