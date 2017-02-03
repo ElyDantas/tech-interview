@@ -2,12 +2,20 @@
 
 This is a test to analyze knowledge in application development, using native components and external libraries.
 
+As you can see in file "App Diagram.png", the test consists of developing a prototype feed application.
+
 ## Guidelines
 
 - [duplicate](https://help.github.com/articles/duplicating-a-repository/) this repository (do **not** fork it)
 - Resolve your test (Android or iOS)
 - [JSON](https://cdn.joyjet.com/tech-interview/mobile-test-one.json) to load by request
-- Layout is using Sketch
+- Layout is in Sketch and PDF
+
+## Features:
+- Menu
+- Feed List
+- Favorites
+- Internal feed
 
 ## What we expect
 
