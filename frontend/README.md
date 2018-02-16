@@ -1,35 +1,32 @@
 
 # Joyjet tech interview
 
-This is a test to analyze knowledge in web development, using specifics resources.
+This is a test to analyze knowledge in FrontEnd development, using specifics resources.
 
 ## Guidelines
 
-- [Duplicate](https://help.github.com/articles/duplicating-a-repository/) this repository (do **not** fork it);
-- Resolve your test;
-- Layout is in Sketch and PDF.
+- Follow all steps described here;
+- The final project must be published to your BitBucket account;
+- The link should be sent to email [jobs@joyjet.com](mailto:jobs@joyjet.com).
 
 ## Features
 
-It must be built using Yeoman scaffolding, also, it must be **responsive**.
-For guidance you might go to http://yeoman.io/learning/index.html 
-
- - HTML5;
- - CSS3;
- - SASS;
- - Gulp;
- - Grid: [Flexbox Grid](https://github.com/hugeinc/flexboxgrid-sass);
- - Icons: [Elegant Icons](https://github.com/josephnle/elegant-icons);
- - Font: [Poppins](https://fonts.google.com/specimen/Poppins).
-
-OBS: If possible avoid using Bootstrap.
+- Develop a ** Quiz ** application using React;
+- The user can register a quiz, questions and answers;
+- A quiz may have several questions;
+- A question may have several answers;
+- When choosing a quiz, the user will be redirected to a page where he will list all the questions of that quiz and the answers to each question;
+- When answering a question, you must tell whether the choice is correct or not;
+- Each question must have at least 4 answers, one of them being the correct answer;
+- Npm or yarn should be used to manage the dependencies;
+- Create a README with installation guidelines;
+- Choose a theme (Bootstrap, Foundation...);
+- Use third-party libraries;
+- Choose how you will save the data (local storage, database, json...);
 
 ## Differentials
 
-- Indented code is a pleasure to look at;
-- Never use images wider than 1920px (unless this is really necessary or specified);
-- Effects and animations will receive bonus points;
-- Sticky navigation bar (blue stripe on the middle) should be fixed on top after scrolling on page;
-- Remember : [image compression](https://tinypng.com/) is important\!
-
-This is a model of a sticky navigation-bar, fixed on top after scrolling on page.
+- Use of Redux;
+- Good use of components;
+- Unit / functional tests;
+- Commented code;

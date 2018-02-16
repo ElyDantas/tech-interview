@@ -21,4 +21,4 @@ Thank you for coming to our tech-interview test page. Come and help us build gam
 
 ## Acknowledgements
 
-The android, iOS and frontend tests were completely designed by us, while the backend tests were shamesly ~~inspired~~ copied from the tests at one of our clients interview process, which our client had already found to be really great at another client. :)
+The Android, iOS, webdesign and frontend tests were completely designed by us, while the backend tests were shamesly ~~inspired~~ copied from the tests at one of our clients interview process, which our client had already found to be really great at another client. :)
