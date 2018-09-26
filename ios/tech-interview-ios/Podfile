@@ -1,0 +1,45 @@
+project 'tech-interview-ios.xcodeproj'
+
+source 'https://github.com/CocoaPods/Specs.git'
+platform :ios, '10.0'
+
+target 'tech-interview-ios' do
+
+  use_frameworks!
+
+  pod 'Alamofire', '~> 4.7'
+  pod 'AlamofireImage', '~> 3.4'
+  pod 'ImageSlideshow', '~> 1.6'
+  pod 'Material', '~> 2.16'
+  pod  "MXParallaxHeader"
+  pod 'PureLayout'
+
+  target 'tech-interview-iosTests' do
+    inherit! :search_paths
+    # Pods for testing
+  end
+
+  target 'tech-interview-iosUITests' do
+    inherit! :search_paths
+    # Pods for testing
+  end
+
+end
+
+swift4 = ['ImageSlideshow', 'Material', 'Motion']
+
+post_install do |installer|
+    installer.pods_project.targets.each do |target|
+        swift_version = nil
+
+        if swift4.include?(target.name)
+            swift_version = '4.0'
+        end
+        
+        if swift_version
+            target.build_configurations.each do |config|
+                config.build_settings['SWIFT_VERSION'] = swift_version
+            end
+        end
+    end
+end

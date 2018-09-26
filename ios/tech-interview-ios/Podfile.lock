@@ -1,0 +1,47 @@
+PODS:
+  - Alamofire (4.7.3)
+  - AlamofireImage (3.4.1):
+    - Alamofire (~> 4.7)
+  - ImageSlideshow (1.6.1):
+    - ImageSlideshow/Core (= 1.6.1)
+  - ImageSlideshow/Core (1.6.1)
+  - Material (2.16.4):
+    - Material/Core (= 2.16.4)
+  - Material/Core (2.16.4):
+    - Motion (~> 1.4.3)
+  - Motion (1.4.3):
+    - Motion/Core (= 1.4.3)
+  - Motion/Core (1.4.3)
+  - MXParallaxHeader (0.6.1)
+  - PureLayout (3.1.2)
+
+DEPENDENCIES:
+  - Alamofire (~> 4.7)
+  - AlamofireImage (~> 3.4)
+  - ImageSlideshow (~> 1.6)
+  - Material (~> 2.16)
+  - MXParallaxHeader
+  - PureLayout
+
+SPEC REPOS:
+  https://github.com/cocoapods/specs.git:
+    - Alamofire
+    - AlamofireImage
+    - ImageSlideshow
+    - Material
+    - Motion
+    - MXParallaxHeader
+    - PureLayout
+
+SPEC CHECKSUMS:
+  Alamofire: c7287b6e5d7da964a70935e5db17046b7fde6568
+  AlamofireImage: 78d67ccbb763d87ba44b21583d2153500a195630
+  ImageSlideshow: f0f33e1a20668e83d77f5fb7729e4ae4437c0759
+  Material: 4ed78690b09ffd148b5ffab6b4367fb1d8da1cd3
+  Motion: 153ba49692997888556c7a95207278a8b1f8be95
+  MXParallaxHeader: 858c403532ed933b381556a81ce333d7065ad182
+  PureLayout: 4634d0b61e3b5021166e8ec7c18e9e0ca0720c8b
+
+PODFILE CHECKSUM: 6dedb9e94337fd06b413be42e58d65223f0f8bf7
+
+COCOAPODS: 1.5.2
