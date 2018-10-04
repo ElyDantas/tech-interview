@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="233dp"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <ss.com.bannerslider.Slider
+        android:id="@+id/carousel"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:clickable="false"
+        android:background="@color/colorTransparentOverlay"
+        app:slider_loopSlides="false"
+        app:slider_interval="0"
+        app:slider_animateIndicators="false"
+        app:slider_hideIndicators="true"
+        />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="bottom"
+        android:orientation="vertical"
+        android:padding="18dp">
+
+        <TextView
+            android:id="@+id/titleTextView"
+            android:fontFamily="@font/montserrat_semibold"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="4dp"
+            android:maxLines="1"
+            android:text="Title"
+            android:textAllCaps="true"
+            android:textColor="@android:color/white"
+            android:textSize="16sp" />
+
+        <TextView
+            android:id="@+id/descriptionTextView"
+            android:fontFamily="@font/montserrat_light"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:maxLines="2"
+            android:text="@string/lorem_ipsum_short"
+            android:textColor="@android:color/white"
+            android:textSize="16sp" />
+
+    </LinearLayout>
+
+    <View
+        android:id="@+id/articleView"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        />
+
+    <ImageView
+        android:id="@+id/leftImageView"
+        android:layout_width="60dp"
+        android:layout_height="match_parent"
+        android:layout_gravity="left"
+        android:scaleType="centerInside"
+        android:src="@drawable/arrow_left" />
+
+    <ImageView
+        android:id="@+id/rightImageView"
+        android:layout_width="60dp"
+        android:layout_height="match_parent"
+        android:layout_gravity="right"
+        android:scaleType="centerInside"
+        android:src="@drawable/arrow_right" />
+
+</FrameLayout>
